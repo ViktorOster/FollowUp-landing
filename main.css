@@ -246,6 +246,7 @@ button {
     height: 100px;
     width: 100px;
     opacity: 0.9;
+    margin-top: -15px;
 }
 .about .card {
     border: 0;
