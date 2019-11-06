@@ -227,6 +227,7 @@ button {
 .about {
     background: #EEEEEE;
 }
+
 .about .card img {
     margin-left: auto;
     margin-right: auto;
@@ -264,6 +265,11 @@ button {
 }
 .about .card p {
     font-size: 0.9rem;
+}
+@media screen and (max-width: 767px) {
+    .card {
+        margin-top: 45px !important;
+    }
 }
 
 .howItWorks {
@@ -563,4 +569,5 @@ form textarea {
     background: #0B0B0C;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-size: 0.9rem;
 }
