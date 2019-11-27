@@ -73,17 +73,17 @@ const linksContact = document.querySelectorAll("[data-js='contact-link']")
 
 linksHowItWorks.forEach(linkHowItWorks => {
     linkHowItWorks.addEventListener("click", () => {
-        scrollToElement(sectionHowItWorks.getBoundingClientRect().top)  
+        scrollToElement(sectionHowItWorks.offsetTop)
     })
 })
 linksAbout.forEach(linkAbout => {
     linkAbout.addEventListener("click", () => {
-        scrollToElement(sectionAbout.getBoundingClientRect().top)  
+        scrollToElement(sectionAbout.offsetTop)
     })
 })
 
 linksContact.forEach(linkContact => {
     linkContact.addEventListener("click", () => {
-        scrollToElement(sectionContact.getBoundingClientRect().top)  
+        scrollToElement(sectionContact.offsetTop)
     })
 })
