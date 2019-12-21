@@ -112,7 +112,7 @@ button {
     padding: 0;
     display: flex;
     color: white;
-    background-color: #0D1817;
+    background-color: #161E1B;
     background: url("./assets/images/street-traffic.jpg");
     background-position: top center;
     background-size: cover;
@@ -172,6 +172,9 @@ button {
         width: 300px;
         top: 480px;
     }
+    .hero {
+        background: url("./assets/images/street-traffic_900px.jpg");
+    }
 }
 @media screen and (max-width: 767px) {
     .hero__absolute {
@@ -194,6 +197,16 @@ button {
     .hero-content__mobile-2 {
         transform: translate(-50%, 0);
     }
+    .hero__absolute {
+        top: 58%;
+        transform: translate(-50%, -50%);
+    }
+    .hero {
+        height: 100vh;
+    }
+    .hero {
+        background: url("./assets/images/street-traffic_600px.jpg");
+    }
 }
 @media screen and (max-width: 440px) {
     .hero input{
@@ -210,9 +223,6 @@ button {
     }
     .hero__absolute {
         padding-top: 8rem;
-    }
-    .hero {
-        height: 68vh;
     }
    
     .hero-content__mobile-2 {
@@ -268,7 +278,7 @@ button {
 }
 @media screen and (max-width: 767px) {
     .card {
-        margin-top: 45px !important;
+        margin-top: 20px !important;
     }
 }
 
