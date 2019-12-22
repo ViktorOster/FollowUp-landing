@@ -171,6 +171,7 @@ button {
         transform: translateY(-50%);
     }
 }
+
 @media screen and (max-width: 767px) {
     .howItWorks__mockup {
         position: relative;

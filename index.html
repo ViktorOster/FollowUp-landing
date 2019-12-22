@@ -52,6 +52,7 @@
     </nav>
 
     <section class="hero">
+        <img src="./assets/images/street-traffic.jpg" alt="" class="hero__bg-img">
         <div class="dark-overlay"></div>
         <div class="hero__absolute">
             <div class="hero__content mb-4">
@@ -67,9 +68,10 @@
 
             <p><small>Sign up to stay updated</small></p>
 
-            <img class="hero-content__mobile-1" src="./assets/images/mobile-splash-screen.png" alt="">
-            <img class="hero-content__mobile-2" src="./assets/images/mobile-sign-in.png" alt="">
+
         </div>
+        <img class="hero-content__mobile-1" src="./assets/images/mobile-splash-screen.png" alt="">
+        <img class="hero-content__mobile-2" src="./assets/images/mobile-sign-in.png" alt="">
     </section>
 
     <section class="about">
@@ -82,7 +84,8 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="card">
-                        <img class="about__icon-1" src="./assets/icon-AI.svg" alt="">
+                        <img class="about__icon-1" loading="lazy" data-vlloffset="200"
+                            data-vllsrc="./assets/icon-AI.svg" alt="">
                         <h4 class="text-uppercase">AI facilitated connections</h4>
                         <p>
                             State your interests and needs on your profile, AI technology is used to connect you with
@@ -92,7 +95,8 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="card">
-                        <img class="about__icon-2" src="./assets/icon-network.svg" alt="">
+                        <img class="about__icon-2" loading="lazy" data-vlloffset="200"
+                            data-vllsrc="./assets/icon-network.svg" alt="">
                         <h4 class="text-uppercase">Get connected</h4>
                         <p>
                             Find professionals for your team, people with similar interests or just meet interesting
@@ -102,7 +106,8 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="card">
-                        <img class="about__icon-3" src="./assets/icon-save-time.svg" alt="">
+                        <img class="about__icon-3" loading="lazy" data-vlloffset="200"
+                            data-vllsrc="./assets/icon-save-time.svg" alt="">
                         <h4 class="text-uppercase">Save time and energy</h4>
                         <p>
                             Save the effort of meeting people and find out if they are a fit for you - let the AI do the
@@ -118,7 +123,8 @@
         <div class="container">
             <div class="row">
                 <div class="col col-12 col-md-6 order-last order-md-first">
-                    <img class="howItWorks__mockup" src="./assets/images/mobile-dashboard.png" alt="">
+                    <img class="howItWorks__mockup" loading="lazy" data-vlloffset="200"
+                        data-vllsrc="./assets/images/mobile-dashboard.png" alt="">
                 </div>
                 <div class="col col-12 col-md-6">
                     <h3 class="mb-4">How it Works</h3>
@@ -151,7 +157,8 @@
         </div>
     </section>
 
-    <section class="last-cta">
+    <section class="last-cta" data-vlloffset="200" data-vlltype="background"
+        data-vllsrc="./assets/images/map-contacts.jpg">
         <div class="dark-overlay darker"></div>
         <div class="last-cta__content">
             <h2>Sign Up to Get Updates</h2>
@@ -215,10 +222,12 @@
                     <div class="row">
                         <div class="col-12 col-md-6 mb-5">
                             <h4>Connect</h4>
-                            <a href="https://twitter.com/FollowUpCo"><img class="socialIcon"
-                                    src="./assets/ant-design_twitter-circle-fill.svg" alt=""></a>
-                            <a href="#"><img class="socialIcon" src="./assets/fa-brands_facebook.svg" alt=""></a>
-                            <a href="#"><img class="socialIcon" src="./assets/ant-design_instagram-fill.svg" alt=""></a>
+                            <a href="https://twitter.com/FollowUpCo"><img class="socialIcon" data-vlloffset="200"
+                                    data-vllsrc="./assets/ant-design_twitter-circle-fill.svg" alt=""></a>
+                            <a href="#"><img class="socialIcon" loading="lazy" data-vlloffset="200"
+                                    data-vllsrc="./assets/fa-brands_facebook.svg" alt=""></a>
+                            <a href="#"><img class="socialIcon" loading="lazy"
+                                    src="./assets/ant-design_instagram-fill.svg" alt=""></a>
                         </div>
                         <div class="col-12 col-md-6 mb-5">
                             <h4>Navigation</h4>
@@ -250,6 +259,8 @@
     </div>
 
     <script src="index.js"> </script>
+    <script src="vanilla-lazyloading.min.js"></script>
+
 </body>
 
 </html>

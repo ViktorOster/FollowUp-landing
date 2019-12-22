@@ -8,8 +8,6 @@
 // })
 
 
-//navbar
-
 const navbar = document.querySelector(".navbar")
 const navbarMobile = document.querySelector(".navbar-mobile")
 const hamburger = document.querySelector("#hamburger")
